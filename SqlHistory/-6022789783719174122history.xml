@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[file:/Users/andreicristea/.sqldeveloper/datalog.sql]]></sql>
+		<connection><![CDATA[ELTE]]></connection>
+		<timestamp><![CDATA[1619767466745]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[13]]></executed>
+		<execTime><![CDATA[0.0]]></execTime>
+	</historyItem>
+</history>

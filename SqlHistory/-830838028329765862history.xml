@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[WITH 
+countries_join as (select countries.name, users.citizenship_country_id, users.email from countries JOIN users ON users.citizenship_country_id = countries.id)
+select name, COUNT(citizenship_country_id) from countries_join group by citizenship_country_id, name having COUNT(citizenship_country_id) > 1000 order by COUNT(citizenship_country_id);]]></sql>
+		<connection><![CDATA[ELTE]]></connection>
+		<timestamp><![CDATA[1620689802194]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.03]]></execTime>
+	</historyItem>
+</history>

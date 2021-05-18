@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[WITH 
+countries_join as (select users.citizenship_country_id, users.email, countries.name from countries JOIN users ON countries.id = users.citizenship_country_id)
+select email from countries_join;]]></sql>
+		<connection><![CDATA[ELTE]]></connection>
+		<timestamp><![CDATA[1620687564221]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.026]]></execTime>
+	</historyItem>
+</history>
