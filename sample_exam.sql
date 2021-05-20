@@ -93,6 +93,33 @@ BEGIN
 END;
 /
 
+-- SQL recursion
+CREATE OR REPLACE PROCEDURE child_cousins IS
+    cousin VARCHAR2(255) := 'k'; 
+    TYPE string_array 
+        IS TABLE OF VARCHAR(255);
+    cousins string_array;
+BEGIN
+    FOR par_row in (SELECT * from nikovits.par) LOOP
+        
+    END LOOP;
+END;
+select * from nikovits.par;
+
+-- pal solution
+WITH
+Sib(a,b) AS
+  (SELECT p1.c, p2.c FROM  nikovits.Par p1,  nikovits.Par p2
+   WHERE p1.p = p2.p AND p1.c <> p2.c),
+Cousin(x,y) AS
+  (SELECT * FROM Sib
+    UNION ALL
+   SELECT p1.c, p2.c FROM nikovits.Par p1,  nikovits.Par p2, Cousin
+   WHERE p1.p = Cousin.x AND p2.p = Cousin.y)
+CYCLE x,y SET cycle_yes TO 'T' DEFAULT 'N'
+SELECT DISTINCT * FROM Cousin WHERE x <= y and (x='k'or y='k')
+ORDER BY 1,2;
+
 select * from paltamas.emp;
 set serveroutput on;
 SELECT SUBORD_SUM(7566) from dual;
