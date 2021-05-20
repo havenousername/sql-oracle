@@ -3,9 +3,9 @@
 	<historyItem>
 		<sql><![CDATA[file:/Users/andreicristea/.sqldeveloper/sample_exam.sql]]></sql>
 		<connection><![CDATA[ELTE]]></connection>
-		<timestamp><![CDATA[1621359505620]]></timestamp>
+		<timestamp><![CDATA[1621458955679]]></timestamp>
 		<type><![CDATA[Script]]></type>
-		<executed><![CDATA[14]]></executed>
+		<executed><![CDATA[57]]></executed>
 		<execTime><![CDATA[0.0]]></execTime>
 	</historyItem>
 </history>

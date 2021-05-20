@@ -34,18 +34,14 @@
     <editor-area state="joined" frame-state="0">
   <constraints>
   <path orientation="horizontal" number="60" weight="0.8" />
-  <path orientation="vertical" number="40" weight="0.7710280373831776" />
+  <path orientation="vertical" number="40" weight="0.8969555035128806" />
   </constraints>
   <bounds x="554" y="227" width="705" height="416" />
     </editor-area>
     <screen width="1680" height="1050"/>
-    <active-mode name="editor"/>
     <toolbar configuration="Standard" preferred-icon-size="24"/>
     <tc-list>
-  <tc-id id="EditorContainer_6"/>
   <tc-id id="NBDC_DatabaseNavigatorWindow.Default"/>
-  <tc-id id="EditorContainer_5"/>
-  <tc-id id="EditorContainer_4"/>
   <tc-id id="NBDC_LogWindow.Log"/>
   <tc-id id="NBDC_ReportNavigatorWindow.DatabaseReports"/>
     </tc-list>

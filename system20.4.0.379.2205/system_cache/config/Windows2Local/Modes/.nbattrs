@@ -58,9 +58,6 @@
     <fileobject name="east">
         <attr name="WinSys-TCRef-Order" stringvalue="NBDC_InspectorWindow.SingletonInspectorWindow"/>
     </fileobject>
-    <fileobject name="editor">
-        <attr name="WinSys-TCRef-Order" stringvalue="EditorContainer_4/EditorContainer_5/EditorContainer_6"/>
-    </fileobject>
     <fileobject name="south">
         <attr name="WinSys-TCRef-Order" stringvalue="NBDC_BOOKMARKS_VIEW_TYPE.BOOKMARK_VIEW_ID"/>
     </fileobject>

@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select get_emp_info(7900) from dual;]]></sql>
+		<connection><![CDATA[ELTE]]></connection>
+		<timestamp><![CDATA[1621458586539]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.028]]></execTime>
+	</historyItem>
+</history>

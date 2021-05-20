@@ -3,9 +3,9 @@
 	<historyItem>
 		<sql><![CDATA[select * from emp;]]></sql>
 		<connection><![CDATA[ELTE]]></connection>
-		<timestamp><![CDATA[1620735895373]]></timestamp>
+		<timestamp><![CDATA[1621456441297]]></timestamp>
 		<type><![CDATA[SQL]]></type>
-		<executed><![CDATA[1]]></executed>
-		<execTime><![CDATA[0.158]]></execTime>
+		<executed><![CDATA[3]]></executed>
+		<execTime><![CDATA[0.033]]></execTime>
 	</historyItem>
 </history>

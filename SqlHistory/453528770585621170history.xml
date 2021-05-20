@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT * from (SELECT mgr, SUM(sal) from paltamas.emp group by mgr) where mgr <> null;]]></sql>
+		<connection><![CDATA[ELTE]]></connection>
+		<timestamp><![CDATA[1621453895398]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.499]]></execTime>
+	</historyItem>
+</history>
