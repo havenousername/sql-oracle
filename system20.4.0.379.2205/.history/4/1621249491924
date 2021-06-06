@@ -1,9 +1,0 @@
-CREATE OR REPLACE PROCEDURE rich_descendant IS
-BEGIN
-END;
-/
-
-set serveroutput on;
-execute rich_descendant();
-
-select * from nikovits.parentof;
